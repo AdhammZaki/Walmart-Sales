@@ -1,61 +1,48 @@
-#🛒 Walmart Sales Dashboard
-#📌 Overview
-This project presents an end-to-end Business Intelligence solution for analyzing Walmart sales data. The goal is to uncover sales trends, identify top-performing products and regions, and deliver actionable insights through an interactive Power BI dashboard.
+# 🛒 Walmart Sales Dashboard
 
-#🛠️ Tools & Technologies
-ToolPurposePower QueryData cleaning & transformationPower BIDashboard design & data visualization
+## 📌 Overview
+This project presents an end-to-end **Business Intelligence** solution designed to analyze Walmart sales data. The goal is to uncover hidden sales trends, identify top-performing products and regions, and deliver actionable insights through a high-impact, interactive **Power BI** dashboard.
 
-#⚙️ Project Workflow
-1. Data Cleaning (Power Query)
+---
 
-Imported raw Walmart sales data into Power Query
-Removed duplicates and handled missing/null values
-Corrected data types (dates, numbers, text)
-Renamed and reorganized columns for clarity
-Applied transformations to prepare the data for analysis
+## 🛠️ Tools & Technologies
+| Tool | Purpose |
+| :--- | :--- |
+| **Power Query** | Data cleaning, ETL, and transformation |
+| **Power BI** | Dashboard design, DAX modeling, and visualization |
+| **Markdown** | Project documentation |
 
-2. Dashboard Building (Power BI)
+---
 
-Connected the cleaned data to Power BI
-Designed an interactive dashboard featuring:
+## ⚙️ Project Workflow
 
-📊 KPIs — Total Sales, Total Profit, Average Order Value
-📈 Sales Trends — Performance over time
-🗺️ Regional Analysis — Sales breakdown by location
-🏆 Top Products/Categories — Best and worst performers
-🔍 Dynamic Filters — Slicers for date, region, and category
+### 1. Data Cleaning (Power Query)
+Before visualization, the raw Walmart sales data underwent a rigorous cleaning process:
+* **Extraction:** Imported raw datasets into the Power Query editor.
+* **Cleaning:** Removed duplicates and handled missing/null values to ensure data integrity.
+* **Transformation:** Corrected data types (Dates, Currency, Text) and renamed columns for better readability.
+* **Optimization:** Applied custom transformations to structure the data for efficient analysis.
 
+### 2. Dashboard Building (Power BI)
+The cleaned data was modeled to create a dynamic user experience featuring:
+* **📊 Key Performance Indicators (KPIs):** Instant visibility into Total Sales, Total Profit, and Average Order Value.
+* **📈 Sales Trends:** Time-series analysis to track performance fluctuations.
+* **🗺️ Regional Analysis:** Geospatial breakdown of sales by location.
+* **🏆 Top Performers:** Analysis of best and worst-performing product categories.
+* **🔍 Dynamic Navigation:** Integrated slicers for Date, Region, and Category to allow for deep-dive exploration.
 
+---
 
+## 📊 Key Insights
+* **Revenue Drivers:** Identified specific product categories that contribute to the majority of total profit.
+* **Seasonality:** Revealed peak sales periods, allowing for better seasonal inventory planning.
+* **Growth Opportunities:** Highlighted underperforming regions where targeted marketing could drive growth.
+* **Strategic Recommendations:** Provided data-backed suggestions for inventory management and sales strategy optimization.
 
-#📊 Key Insights
+---
 
-Identified top-performing product categories driving the most revenue
-Revealed seasonal sales trends and peak periods
-Highlighted underperforming regions with growth potential
-Provided data-driven recommendations for inventory and sales strategy
-
-
-#📁 Project Files
+## 📁 Project Files
+```text
 📦 Walmart-Sales-Dashboard
  ┣ 📊 Walmart_Sales_Dashboard.pbix   → Power BI dashboard file
  ┗ 📄 README.md                      → Project documentation
-
-▶️ How to Use
-
-Clone or download this repository
-Open Walmart_Sales_Dashboard.pbix in Power BI Desktop
-Explore the dashboard using the interactive filters and slicers
-To inspect the data transformations, navigate to Home → Transform Data in Power BI
-
-
-Note: Power BI Desktop is required to open the .pbix file. Download it for free from Microsoft's official website.
-
-
-✅ Skills Demonstrated
-
-Data cleaning & transformation using Power Query
-DAX measures and calculated columns
-Interactive dashboard design in Power BI
-Business storytelling through data visualization
-Sales performance analysis & insight generation
