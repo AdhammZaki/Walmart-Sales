@@ -1,11 +1,11 @@
-🛒 Walmart Sales Dashboard
-📌 Overview
+#🛒 Walmart Sales Dashboard
+#📌 Overview
 This project presents an end-to-end Business Intelligence solution for analyzing Walmart sales data. The goal is to uncover sales trends, identify top-performing products and regions, and deliver actionable insights through an interactive Power BI dashboard.
 
-🛠️ Tools & Technologies
+#🛠️ Tools & Technologies
 ToolPurposePower QueryData cleaning & transformationPower BIDashboard design & data visualization
 
-⚙️ Project Workflow
+#⚙️ Project Workflow
 1. Data Cleaning (Power Query)
 
 Imported raw Walmart sales data into Power Query
@@ -28,7 +28,7 @@ Designed an interactive dashboard featuring:
 
 
 
-📊 Key Insights
+#📊 Key Insights
 
 Identified top-performing product categories driving the most revenue
 Revealed seasonal sales trends and peak periods
@@ -36,7 +36,7 @@ Highlighted underperforming regions with growth potential
 Provided data-driven recommendations for inventory and sales strategy
 
 
-📁 Project Files
+#📁 Project Files
 📦 Walmart-Sales-Dashboard
  ┣ 📊 Walmart_Sales_Dashboard.pbix   → Power BI dashboard file
  ┗ 📄 README.md                      → Project documentation
